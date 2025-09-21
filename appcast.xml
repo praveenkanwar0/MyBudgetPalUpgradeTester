@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+     xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>MyBudgetPalApp Updates</title>
+    <item>
+      <title>Version 0.2.2</title>
+      <description>
+        - Added recurring expense support
+        - Fixed CSV export bug
+      </description>
+      <enclosure url="https://example.com/mybudgetpalapp-0.2.2.apk"
+                 sparkle:version="0.2.2"
+                 sparkle:shortVersionString="0.2.2" />
+    </item>
+  </channel>
+</rss>
