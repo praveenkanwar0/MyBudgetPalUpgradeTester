@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"
-     xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <title>MyBudgetPalApp Updates</title>
     <item>
       <title>Version 0.2.2</title>
       <description>
+        <![CDATA[
         - Added recurring expense support
         - Fixed CSV export bug
+        ]]>
       </description>
-      <enclosure url="https://example.com/mybudgetpalapp-0.2.2.apk"
-                 sparkle:version="0.2.2"
-                 sparkle:shortVersionString="0.2.2" />
+      <enclosure 
+          url="https://example.com/mybudgetpalapp-0.2.2.apk"
+          sparkle:version="0.2.2"
+          sparkle:shortVersionString="0.2.2">
+      </enclosure>
+      <link>https://example.com/mybudgetpalapp-0.2.2.apk</link>
+      <pubDate>Sat, 21 Sep 2025 12:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
+
